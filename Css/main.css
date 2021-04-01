@@ -70,3 +70,13 @@
 .tasks .list li a:hover {
 	text-decoration: line-through;
 }
+
+.buttonRecognize{
+    background-color: #ebeaeacb;
+	border: 1px solid #ebeaea;;
+	color: rgb(5, 5, 5);
+	display: inline-block;
+	font-size: 18px;
+    font-family: 'Inter', sans-serif;
+	padding: 15px;
+}
