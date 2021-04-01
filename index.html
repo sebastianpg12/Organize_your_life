@@ -5,13 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Organize your life</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Css/navbar.css">
+    <link rel="stylesheet" href="Css/container.css">
+    <link rel="stylesheet" href="Css/main.css">
+    <link rel="stylesheet" href="Css/global.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Title-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
-<container class="principal-container">
-    <header>
+<container class="principal-container background">
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+    <header class="">
         <div class="icon-bar">
             <a href="#">
                 <i class="fa fa-home"></i>
@@ -25,15 +36,36 @@
             <a href="#">
                 <i class="fa fa-question"></i>
             </a>
-            <a href="#">
-                <i class="fa fa-question"></i>
-            </a>
         </div>
     </header>
 
+    <main class="main">
+        <h1 class="title center principalTitleMain">It's time for you to get organized</h1>
+
+        <div class="toDo">
+            <div class="principal">
+                <div class="wrap">
+                    <form class="form" action="">
+                        <input type="text" id="taskInput" class="error" placeholder="Agrega tu tarea">
+                        <input type="button" class="button" id="btn-add" value="Agregar Tarea">
+                    </form>
+                </div>
+            </div>
+        
+            <div class="tareas">
+                <div class="wrap">
+                    <ul class="list" id="list">
+                        <li><a href="#">1 Lorem ipsum dolor sit amet.</a></li>
+                        <li><a href="#">2 Lorem ipsum dolor sit amet.</a></li>
+                        <li><a href="#">3 Lorem ipsum dolor sit amet.</a></li>
+                    </ul>
+                </div>
+        </div>
+        
+    </main>
 
 </container>
 
-    
+<script src="Js/toDo.js"></script>
 </body>
 </html>
