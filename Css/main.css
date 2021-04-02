@@ -19,6 +19,11 @@
 	width: 100%;
 }
 
+.wrap .titleToDo{
+    color:#000000;
+   
+}
+
 .principal .form {
 	color: #797474;
 	text-align: center;
@@ -27,9 +32,9 @@
 .principal .form input[type=text] {
 	border: 2px solid #ebeaea;
     margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-	padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+	padding: 3px;
 	width: 80%;
 }
 

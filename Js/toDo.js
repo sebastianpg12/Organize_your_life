@@ -2,7 +2,9 @@
     //var
     var list = document.getElementById("list"),
         taskInput = document.getElementById("taskInput"),
-        btnNewTask = document.getElementById("btn-add")
+        btnNewTask = document.getElementById("btn-add");
+    
+       
     //functions
     var addTask = function(){
     var task = taskInput.value,
